@@ -1,5 +1,9 @@
 # todolist-fullstack
- App para estudo do Node.js
+ App para estudo do **Node.js** com os videos do canal do **Youtube** **Manual do Dev**.
+ 
+Acesse o canal para os videos: <http://youtube.com/manualdodev>.
+</br>
+Github do Manual do Dev: <https://github.com/manualdodev>.
 
 
 ### Rodar app
@@ -8,14 +12,14 @@ Acesse a pasta backend utilizando o terminal e execute o comando:
 
 ~~~~cmd
 npm run dev
-~~~
+~~~~
 
 ### Criar database todolist
 
-- Acesse a extensão Database Client e clique em Create Connection;
-- Preencha os campos usuário e porta;
-- Clique em Connect;
-- Clique no + na conexão criada e digite as linhas:
+1. Acesse a extensão Database Client e clique em Create Connection;
+2. Preencha os campos usuário e porta;
+3. Clique em Connect;
+4. Clique no + na conexão criada e digite as linhas:
 
 ~~~SQL
 CREATE DATABASE IF NOT EXISTS todolist;
@@ -30,5 +34,5 @@ CREATE TABLE tasks (
 );
 ~~~
 
-- Selecione todas as linhas e aperte Ctrl+ENTER para executar;
+5. Selecione todas as linhas e aperte Ctrl+ENTER para executar;
 
