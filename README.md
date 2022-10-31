@@ -1,10 +1,37 @@
 # todolist-fullstack
- App para estudo do **Node.js** com os videos do canal do **Youtube** **Manual do Dev**.
+ App para estudo do **Node.js** com os videos do canal do **Youtube**: **[Manual do Dev](https://exemplo.com/)**.
  
-Acesse o canal para os videos: <http://youtube.com/manualdodev>.
+**Acesse o canal para os videos:** <http://youtube.com/manualdodev>.
 </br>
-Github do Manual do Dev: <https://github.com/manualdodev>.
+**Github do Manual do Dev:** <https://github.com/manualdodev>.
 
+## Documentação dos procedimentos realizados (Em andamento)
+
+### Criar a pasta do projeto e instalar o app com Node.js
+
+Crie a pasta todolist-fullstack, abra com o VSCode e no Terminal execute o comando:
+
+~~~CMD
+npm install todolist-fullstack
+~~~
+
+### Criar a estrutura de pastas com os arquivos
+
+* backend
+  * src
+    * controllers
+      * tasksController.js
+    * middlewares
+      * tasksMiddleware.js
+    * models
+      * connection.js
+      * tasksModel.js
+    * app.js
+    * router.js
+    * server.js
+  * .env.example
+  * package-lock.json
+  * package.json
 
 ### Rodar app
 
