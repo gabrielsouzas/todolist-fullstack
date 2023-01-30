@@ -63,3 +63,19 @@ CREATE TABLE tasks (
 
 5. Selecione todas as linhas e aperte Ctrl+ENTER para executar;
 
+### Criação do Front-end
+
+1. Liberando e controlando acesso Client da aplicação
+
+Acesse a pasta backend no terminal:
+
+~~~~cmd
+cd backend/
+~~~~
+
+Instale a dependência cors:
+
+~~~~cmd
+npm install cors
+~~~~
+
