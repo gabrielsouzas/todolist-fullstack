@@ -83,6 +83,14 @@ const createSelect = (value) => {
     const select = createElement('select', '', options);
 
     select.value = value;
+
+    if (value == 'pendente') {
+       select.style.backgroundColor = 'rgba(207, 68, 68, 0.36)';
+    } else if (value == 'em andamento') {
+        select.style.backgroundColor = 'rgba(211, 194, 73, 0.36)';
+    } else {
+        select.style.backgroundColor = 'rgba(77, 207, 68, 0.36)';
+    }
     
     return select;
 }
