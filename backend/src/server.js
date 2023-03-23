@@ -1,6 +1,6 @@
 const app = require('./app');
 
-// Import do dotenv para poder usar as vaiaveis de ambiente criadas no .env
+// Import do dotenv para poder usar as variaveis de ambiente criadas no .env
 require('dotenv').config();
 
 // Inicia a aplicação com a porta do ambiente ou se não conseguir inicia na 3333
